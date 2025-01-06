@@ -155,7 +155,7 @@ Roberts, G. O. and S. K. Sahu (1997). Updating Schemes, Correlation Structure, B
 Shaby, B. and M. Wells (2011). \emph{Exploring an Adaptive Metropolis Algorithm}. 2011-14. Department of Statistics, Duke University.
 }
 \seealso{
-\code{\link{configureMCMC}} \code{\link{addSampler}} \code{\link{buildMCMC}} \code{\link{buildAPT}} \code{\link{runMCMC}}
+\code{\link[nimble]{configureMCMC}} \code{\link[nimble]{addSampler}} \code{\link[nimble]{buildMCMC}} \code{\link[nimble]{buildAPT}} \code{\link[nimble]{runMCMC}}
 }
 \author{
 David Pleydell, Daniel Turek

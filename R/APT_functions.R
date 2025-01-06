@@ -1217,7 +1217,7 @@ sampler_RW_multinomial_tempered <- nimbleFunction(
 #'
 #' @aliases sampler sampler_RW_tempered sampler_RW_block_tempered sampler_RW_multinomial_tempered sampler_slice_tempered
 #'
-#' @seealso \code{\link{configureMCMC}} \code{\link{addSampler}} \code{\link{buildMCMC}} \code{\link{buildAPT}} \code{\link{runMCMC}}
+#' @seealso \code{\link[nimble]{configureMCMC}} \code{\link[nimble]{addSampler}} \code{\link[nimble]{buildMCMC}} \code{\link[nimble]{buildAPT}} \code{\link[nimble]{runMCMC}}
 #'
 #' @author David Pleydell, Daniel Turek
 #'
