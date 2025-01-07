@@ -28,7 +28,7 @@ Note: The APT samplers within this package were adapted from MCMC
         developer. Many thanks to the NIMBLE Development Team for their
         support during the development of this package.
 NeedsCompilation: no
-Packaged: 2025-01-06 15:42:25 UTC; pleydell
+Packaged: 2025-01-07 15:18:59 UTC; pleydell
 Author: David Pleydell [aut, cre, cph] (Package developer,
     <https://orcid.org/0000-0002-6450-1475>),
   Daniel Turek [cph] (Member of the NIMBLE Developent Team),
