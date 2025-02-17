@@ -581,7 +581,8 @@ buildAPT <- nimbleFunction(
         resizeVector = function(x = double(1), length = double(0)) {
             returnType(double(1))
             lengthOri = length(x)
-            xPrev     = nimNumeric(length=lengthOri, value=x[1:lengthOri])
+            # xPrev = nimNumeric(length=lengthOri, value=x[1:lengthOri]) ## Possible cause of a CRAN check fail.
+            xPrev     = x[1:lengthOri] ## Perry's fix. https://groups.google.com/g/nimble-users/c/2llShjxnPe0/m/Nl9H8M1BBwAJ?utm_medium=email&utm_source=footer
             x         = nimNumeric(length=length, value=0)
             if (lengthOri <= length) {
                 x[1:lengthOri] = xPrev[1:lengthOri]

@@ -4,9 +4,9 @@
 \alias{nimbleAPT}
 \title{nimbleAPT}
 \description{
-A collection of nimble functions for adaptive parallel tempering.
+A collection of NIMBLE functions for adaptive parallel tempering.
 }
-\section{Adaptive parallel tempering (APT) for nimble. Adapted from nimble's MCMC suite to enable APT specific features (i.e. an adaptive temperature ladder).}{
+\section{Adaptive parallel tempering (APT) for NIMBLE. Adapted from NIMBLE'S MCMC suite to enable APT specific features (i.e. an adaptive temperature ladder).}{
 NA
 }
 
